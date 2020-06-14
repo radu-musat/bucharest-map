@@ -1,0 +1,19 @@
+@import "../variables/variables";
+
+html * { font-family: 'Comfortaa', cursive; }
+
+h1, .h1 { font-size: 1.5rem; letter-spacing: 1px; margin-bottom: .5rem; }
+h2, .h2 { font-size: 1.35rem; letter-spacing: 1px; margin-bottom: .5rem; }
+
+a,p,span {font-size: .7rem; line-height: 1.25; letter-spacing: 1px;  }
+
+a,p { margin-bottom: .5rem; }
+
+a { text-decoration: none; }
+
+@media only screen and (min-width: $tablet-breakpoint) {
+    h1, .h1 { font-size: 2rem; letter-spacing: 1px; margin-bottom: .5rem; }
+    h2, .h2 { font-size: 1.5rem; letter-spacing: 1px; margin-bottom: .5rem; }
+
+    a,p,span { font-size: .8rem; }
+}

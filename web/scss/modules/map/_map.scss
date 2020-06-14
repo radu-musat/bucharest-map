@@ -1,0 +1,15 @@
+//== Map ==//
+
+.map { min-height: 200px; height: 50vh; width: 100%; }
+
+.leaflet-bottom.leaflet-right { width: 100%; }
+
+.leaflet-control-attribution.leaflet-control {
+    font-size: .7rem;
+
+    align-items: center; display: flex; flex-wrap: wrap; width: 100%;
+
+    a { font-size: .7rem; margin: .25rem;}
+}
+
+

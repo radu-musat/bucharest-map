@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quick Start - Leaflet</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+        <link rel="stylesheet" href="web/css/app.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+        <script src="web/js/app.js" type="module" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <!-- title -->
+            <section class="title">
+                <div class="card">
+                    <h1>Bucureștiul în culori</h1>
+                    <p>Bucureștiul, asemenea multor orașe din România, este văzut ca un oraș predominant gri și mohorât. De aceea, am hotărât să-l colorăm noi în viile culori ale curcubeului.</p>
+                </div>
+            </section>
+
+            <!-- profile -->
+            <section class="profile">
+
+                <div class="profile__header card">
+                    <picture>
+                        <img src="web/images/user.jpg" alt="profile image">
+                    </picture>
+                    <ul>
+                        <li>
+                            <span>Nume:</span> <span>Mușat Radu</span>
+                        </li>
+                        <li>
+                            <span>Varstă:</span> <span>30</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            <a href="tel:+40743200516">+40 743 200 516</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:radu.musat.abc@gmail.com">radu.musat.abc@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="profile__about card">
+                    <h2>Salut și bine ai venit!</h2>
+                    <p>Dacă ai ajuns pe aci, însemnă că ai vrea să știi câte ceva despre mine iar eu nu a nimc împotriva:</p>
+                    <p>Sunt un tip sincer și persistent (unii ar spune <a href="https://i.imgflip.com/1oywwq.jpg" target="_blank">încăpățânat</a>  dar nu știi asta de la mine..).</p>
+                    <p>Când cineva vrea să mă certe ignor iar în mintea mea se întâmplă <a href="https://youtu.be/T3zEMQ12Ya0?t=212" target="_blank">urmatoarea</a>.</p>
+                    <p>Am scris prima mea linie de cod la 27 ani in C#, încercam să învăț Selenium.</p>
+                    <p>Sunt pasionat de gaming - jocul meu preferat fiind <a href="https://youtu.be/PzaFmuKpYBI" target="_blank">Tekken 7</a>.</p>
+                </div>
+
+            </section>
+
+            <!-- map -->
+            <section class="map" id="mapid"></section>
+        </div>
+    </body>
+</html>
