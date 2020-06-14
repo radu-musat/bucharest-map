@@ -1,5 +1,5 @@
 # bucharest-map
-demo interactive map
+Interactive map demo
 
 Map was built with [leafletjs](https://leafletjs.com/)
 
